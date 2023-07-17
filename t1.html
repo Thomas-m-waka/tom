@@ -57,6 +57,26 @@
           <span id="company-error" class="error"></span>
        </div>
 
+       <div class="form-group">
+        <div>
+          <label for="purpose">Purpose:</label>
+          <select id="purpose" name="purpose" class="form-input" required>
+            <option value="" selected disabled>Select Purpose</option>
+            <option value="Work">Work</option>
+            <option value="Purchase">Purchase</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Official">Official</option>
+            <option value="Meeting">Meeting</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        
+        <div id="other-purpose-container" style="display: none;">
+          <label for="other_purpose">Please specify:</label>
+          <input type="text" id="other_purpose" name="other_purpose" placeholder="Please specify">
+        </div>
+     </div>
+
             <div class="form-container">
                <div class="form-group">
                   <div class="camera">
